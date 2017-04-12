@@ -12,6 +12,15 @@
 		DA1811CC1E9E8BA700A4D100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1811CA1E9E8BA700A4D100 /* Main.storyboard */; };
 		DA1811CE1E9E8BA700A4D100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1811CD1E9E8BA700A4D100 /* Assets.xcassets */; };
 		DA1811D11E9E8BA700A4D100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1811CF1E9E8BA700A4D100 /* LaunchScreen.storyboard */; };
+		DA1811D91E9E90FE00A4D100 /* PhasesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1811D81E9E90FE00A4D100 /* PhasesDataSource.swift */; };
+		DA1811DB1E9E998800A4D100 /* LunarHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1811DA1E9E998800A4D100 /* LunarHeaderView.xib */; };
+		DA1811DD1E9EB7F100A4D100 /* LunarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1811DC1E9EB7F100A4D100 /* LunarHeaderView.swift */; };
+		DA1811E01E9EBA9400A4D100 /* PhaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1811DE1E9EBA9400A4D100 /* PhaseTableViewCell.swift */; };
+		DA1811E11E9EBA9400A4D100 /* PhaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1811DF1E9EBA9400A4D100 /* PhaseTableViewCell.xib */; };
+		DA1811E51E9EBCB400A4D100 /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA1811E41E9EBCB400A4D100 /* weathericons-regular-webfont.ttf */; };
+		DA1811E71E9EC46F00A4D100 /* LunarPhaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1811E61E9EC46F00A4D100 /* LunarPhaseModel.swift */; };
+		DA1811E91E9EC7FF00A4D100 /* PhaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1811E81E9EC7FF00A4D100 /* PhaseViewModel.swift */; };
+		DA1811EB1E9ED3E300A4D100 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1811EA1E9ED3E300A4D100 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		DA1811CD1E9E8BA700A4D100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA1811D01E9E8BA700A4D100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA1811D21E9E8BA700A4D100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1811D81E9E90FE00A4D100 /* PhasesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhasesDataSource.swift; sourceTree = "<group>"; };
+		DA1811DA1E9E998800A4D100 /* LunarHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LunarHeaderView.xib; sourceTree = "<group>"; };
+		DA1811DC1E9EB7F100A4D100 /* LunarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunarHeaderView.swift; sourceTree = "<group>"; };
+		DA1811DE1E9EBA9400A4D100 /* PhaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhaseTableViewCell.swift; sourceTree = "<group>"; };
+		DA1811DF1E9EBA9400A4D100 /* PhaseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhaseTableViewCell.xib; sourceTree = "<group>"; };
+		DA1811E41E9EBCB400A4D100 /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "weathericons-regular-webfont.ttf"; path = "../../Downloads/weather-icons-master/font/weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
+		DA1811E61E9EC46F00A4D100 /* LunarPhaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunarPhaseModel.swift; sourceTree = "<group>"; };
+		DA1811E81E9EC7FF00A4D100 /* PhaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhaseViewModel.swift; sourceTree = "<group>"; };
+		DA1811EA1E9ED3E300A4D100 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,7 @@
 		DA1811BA1E9E8BA700A4D100 = {
 			isa = PBXGroup;
 			children = (
+				DA1811E41E9EBCB400A4D100 /* weathericons-regular-webfont.ttf */,
 				DA1811C51E9E8BA700A4D100 /* LunarTracking */,
 				DA1811C41E9E8BA700A4D100 /* Products */,
 			);
@@ -54,10 +73,18 @@
 		DA1811C51E9E8BA700A4D100 /* LunarTracking */ = {
 			isa = PBXGroup;
 			children = (
+				DA1811CD1E9E8BA700A4D100 /* Assets.xcassets */,
 				DA1811C61E9E8BA700A4D100 /* AppDelegate.swift */,
 				DA1811C81E9E8BA700A4D100 /* ViewController.swift */,
+				DA1811D81E9E90FE00A4D100 /* PhasesDataSource.swift */,
+				DA1811EA1E9ED3E300A4D100 /* Result.swift */,
+				DA1811E61E9EC46F00A4D100 /* LunarPhaseModel.swift */,
+				DA1811E81E9EC7FF00A4D100 /* PhaseViewModel.swift */,
 				DA1811CA1E9E8BA700A4D100 /* Main.storyboard */,
-				DA1811CD1E9E8BA700A4D100 /* Assets.xcassets */,
+				DA1811DC1E9EB7F100A4D100 /* LunarHeaderView.swift */,
+				DA1811DA1E9E998800A4D100 /* LunarHeaderView.xib */,
+				DA1811DE1E9EBA9400A4D100 /* PhaseTableViewCell.swift */,
+				DA1811DF1E9EBA9400A4D100 /* PhaseTableViewCell.xib */,
 				DA1811CF1E9E8BA700A4D100 /* LaunchScreen.storyboard */,
 				DA1811D21E9E8BA700A4D100 /* Info.plist */,
 			);
@@ -125,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1811D11E9E8BA700A4D100 /* LaunchScreen.storyboard in Resources */,
+				DA1811E11E9EBA9400A4D100 /* PhaseTableViewCell.xib in Resources */,
+				DA1811E51E9EBCB400A4D100 /* weathericons-regular-webfont.ttf in Resources */,
 				DA1811CE1E9E8BA700A4D100 /* Assets.xcassets in Resources */,
+				DA1811DB1E9E998800A4D100 /* LunarHeaderView.xib in Resources */,
 				DA1811CC1E9E8BA700A4D100 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +168,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1811C91E9E8BA700A4D100 /* ViewController.swift in Sources */,
+				DA1811E91E9EC7FF00A4D100 /* PhaseViewModel.swift in Sources */,
+				DA1811E01E9EBA9400A4D100 /* PhaseTableViewCell.swift in Sources */,
+				DA1811D91E9E90FE00A4D100 /* PhasesDataSource.swift in Sources */,
+				DA1811DD1E9EB7F100A4D100 /* LunarHeaderView.swift in Sources */,
+				DA1811E71E9EC46F00A4D100 /* LunarPhaseModel.swift in Sources */,
+				DA1811EB1E9ED3E300A4D100 /* Result.swift in Sources */,
 				DA1811C71E9E8BA700A4D100 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
